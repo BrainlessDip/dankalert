@@ -28,7 +28,7 @@ const Hero = () => {
           </button>
         </div>
         <div id="hero-logo" className="hidden md:block w-64 h-64 relative ml-8">
-          <img src="/logo.png" alt="Dank Alert Logo" className="w-full h-full object-cover rounded-full shadow-2xl" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Dank Alert Logo" className="w-full h-full object-cover rounded-full shadow-2xl" />
         </div>
       </div>
     </section>

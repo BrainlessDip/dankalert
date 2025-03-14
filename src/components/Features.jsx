@@ -1,5 +1,9 @@
 import { useEffect } from 'react';
 import { animate } from 'motion';
+const fishingReminderImg = import.meta.env.BASE_URL + 'fishing-reminder.jpg';
+const scratchNotifierImg = import.meta.env.BASE_URL + 'scratch-notifier.jpg';
+const globalBoostImg = import.meta.env.BASE_URL + 'global-boost-notifier.jpg';
+const fishingEventImg = import.meta.env.BASE_URL + 'fishing-event-notifier.jpg';
 
 const FeatureCard = ({ title, description, image }) => {
   return (
@@ -27,22 +31,22 @@ const Features = () => {
     {
       title: 'Fishing Reminder',
       description: 'Notifies users when it\'s time to fish again in Dank Memer by reaction, saving them time and preventing button spamming',
-      image: '/src/assets/fishing-reminder.jpg'
+      image: fishingReminderImg
     },
     {
       title: 'Scratch Notifier',
       description: 'Alerts users about scratch events, ensuring they never miss out on opportunities to participate and potentially win rewards',
-      image: '/src/assets/scratch-notifier.jpg'
+      image: scratchNotifierImg
     },
     {
       title: 'Global Boost Notifier',
       description: 'Notifies users about global boosts in Dank Memer, keeping them updated on any enhancements to their gaming experience',
-      image: '/src/assets/global-boost-notifier.jpg'
+      image: globalBoostImg
     },
     {
       title: 'Fishing Event Notifier',
       description: 'Informs users about upcoming fishing events in Dank Memer, allowing them to prepare and participate for a chance to earn rewards or compete',
-      image: '/src/assets/fishing-event-notifier.jpg'
+      image: fishingEventImg
     }
   ];
 

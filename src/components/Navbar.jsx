@@ -20,12 +20,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top- w-full z-50 flex justify-center">
+    <nav className="fixed top-0 w-full z-50 flex justify-center">
       <div className={`max-w-2xl w-full transition-all duration-300 ${isScrolled ? 'bg-gray-900/50 backdrop-blur-sm shadow-lg rounded-3xl' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0 cursor-pointer flex items-center gap-2" onClick={() => scrollToSection('hero')}>
-              <img src="/logo.png" alt="Dank Alert Logo" className="h-8 w-8 rounded-full" />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Dank Alert Logo" className="h-8 w-8 rounded-full" />
               <span className="text-2xl font-bold text-white">Dank Alert</span>
             </div>
             <div className="hidden md:flex flex-1 justify-center items-center">
