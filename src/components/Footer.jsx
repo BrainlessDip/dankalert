@@ -31,10 +31,10 @@ const Footer = () => {
             </a>
           </div>
           <div className="text-center md:text-right">
-            <a href="/terms" className="text-gray-400 hover:text-white transition-colors mr-6">
+            <a href="#/terms" className="text-gray-400 hover:text-white transition-colors mr-6">
               Terms of Service
             </a>
-            <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">
+            <a href="#/privacy" className="text-gray-400 hover:text-white transition-colors">
               Privacy Policy
             </a>
           </div>
