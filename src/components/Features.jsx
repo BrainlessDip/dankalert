@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { animate } from 'motion';
-const fishingReminderImg = '/fishing-reminder.jpg';
-const scratchNotifierImg = '/scratch-notifier.jpg';
-const globalBoostImg = '/global-boost-notifier.jpg';
-const fishingEventImg = '/fishing-event-notifier.jpg';
+const fishingReminderImg = import.meta.env.BASE_URL + 'fishing-reminder.jpg';
+const scratchNotifierImg = import.meta.env.BASE_URL + 'scratch-notifier.jpg';
+const globalBoostImg = import.meta.env.BASE_URL + 'global-boost-notifier.jpg';
+const fishingEventImg = import.meta.env.BASE_URL + 'fishing-event-notifier.jpg';
 
 const FeatureCard = ({ title, description, image }) => {
   return (
