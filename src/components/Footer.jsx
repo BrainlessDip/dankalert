@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div className="text-center space-x-6">
             <a
-              href="https://discord.gg/your-invite-link"
+              href="https://discord.gg/Xk3ZwNQaMD"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"

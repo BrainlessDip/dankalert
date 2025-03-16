@@ -25,9 +25,9 @@ const Hero = () => {
           <button
             id="hero-button"
             className="bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-3 px-8 rounded-lg transform transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]"
-            onClick={() => window.open('https://discord.com', '_blank')}
+            onClick={() => window.open('https://discord.com/oauth2/authorize?client_id=1208952109547003994', '_blank')}
           >
-            Add to Server
+            Invite Me
           </button>
         </div>
       </div>
