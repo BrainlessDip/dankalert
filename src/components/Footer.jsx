@@ -1,4 +1,5 @@
 import { FaGithub } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -31,12 +32,12 @@ const Footer = () => {
             </a>
           </div>
           <div className="text-center md:text-right">
-            <a href="#/terms" className="text-gray-400 hover:text-white transition-colors mr-6">
+            <Link to="/terms-of-service" className="text-gray-400 hover:text-white transition-colors mr-6">
               Terms of Service
-            </a>
-            <a href="#/privacy" className="text-gray-400 hover:text-white transition-colors">
+            </Link>
+            <Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">
               Privacy Policy
-            </a>
+            </Link>
           </div>
         </div>
       </div>
