@@ -8,18 +8,6 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           <div className="text-center md:text-left space-y-4">
             <p className="text-gray-400">&copy; {new Date().getFullYear()} Dank Alert. All rights reserved.</p>
-            <div className="flex items-center gap-2 justify-center md:justify-start">
-              <span className="text-gray-400">This website is made by</span>
-              <a
-                href="https://github.com/plabewe"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors inline-flex items-center gap-1"
-              >
-                Plabew
-                <FaGithub className="text-lg" />
-              </a>
-            </div>
           </div>
           <div className="text-center space-x-6">
             <a
